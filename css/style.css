@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+* {
+	text-decoration:none;
+	font-size:16px;
+	font-family: 'Muli', sans-serif;
+	box-sizing: border-box;
+
+}
+
+.container {
+	width:1200px;
+	margin:auto;
+	position:relative;
+}
+
+.top {
+	display:flex;
+	padding-top:20px;
+
+}
+
+
+
+
+
+h1 {
+	font-size: 25px;
+	color:orange;
+	padding-left:10px;
+	padding-bottom:0px;
+	text-align: center;
+	
+}
+
+body {
+	background-color: black;
+	color:white;
+	border-color:orange;
+	width:100vw;
+	height: 100vh;
+	margin:0px;
+	padding:0px;
+
+
+}
+
+ul {
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+
+.levakolona {
+	width:30%;
+	padding:10px;
+	position: relative;
+	z-index:-105;
+}
+
+.desnakolona {
+	width:70%;
+	padding:10px;
+	background-color:white;
+	color:black;
+	margin:0px;
+	display: flex;
+	align-items:center;
+	flex-direction:column;
+
+
+}
+
+span {
+
+	color:orange;
+	text-transform:uppercase;
+	padding-left:10px;
+}
+
+.levakolona img {
+	height:150px;
+	
+	border-radius: 50%;
+	border: 2px orange solid;
+	width:150px;
+	margin:auto;
+	display: block;
+	text-align: center;
+	z-index:1;
+	
+
+	
+
+}
+
+.centar {
+	
+
+	color:white;
+	border: 2px orange solid;
+	border-top:20px orange solid;
+	height:auto;
+	display:flex;
+
+
+	
+}
+
+.levimain {
+	padding:25px;
+	width:70%;
+	position: relative;
+}
+
+.lmdesniblok {
+	position:absolute;
+	top:0px;
+	right:0px;
+	color:white;
+	background-color:white;
+	width:200px;
+	height: 113px;
+}
+
+.lmdesniblok img {
+	display:block;
+	height:110px;
+	padding-left: 20px;
+
+}
+
+.sae {
+	font-size: 14px;
+	font-weight:300;
+}
+
+.desnimain {
+	width:30%;
+	background-color: white;
+	overflow: hidden;
+	padding-left: 25px;
+	padding-top:20px;
+}
+
+.naslovmain {
+	color:white;
+	text-align: left;
+}
+
+.firma {
+	margin-top:40px;
+	border-top:1px solid white;
+}
+
+h3{
+	color:black;
+	font-size:14px;
+	
+}
+
+.sc {
+	background-color: green;
+	height:20px;
+	margin-left: 30px;
+
+}
+
+.sis {
+	width:78px;
+	text-align: center;
+	color:white;
+	
+}
+
+.upo {
+	width:85px;
+	text-align: center;
+	color:white;
+	margin-left:66px;
+	
+}
+
+.kol {
+	width:90px;
+	text-align: center;
+	color:white;
+	margin-left:42px;
+	
+}
+
+.dos {
+	width:80px;
+	text-align: center;
+	color:white;
+	margin-left:50px;
+	
+	
+}
+
+.progress {
+	display:flex;
+	align-items: center;
+}
+
+p {
+	color:black;
+	padding:10px 10px 0 0;
+	font-size:16px;
+}
+
+
+.large {
+	color:black;
+}
+
+button {
+	background-color: black;
+	text-align: center;
+	padding:10px;
+	border-radius: 20%;
+	cursor:pointer;
+	display:block;
+	margin:auto;
+
+
+
+}
+
+.material-icons {
+	
+	display:inline-block;
+	margin-right:10px; 
+	color:black;
+	
+}
+
+.large {
+	margin-left:155px;
+}
+
+
+
+
+
+a {
+
+	color:white;
+}
+
+
+.main {
+
+
+
+}
+
+.borderslika {
+	position:absolute;
+	width: 5px;
+	height:739px;
+	background-image: url(../images/ja.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: repeat;
+	left:-10px;
+	top:-21px;
+	background-blend-mode: rgba(100,400,50,0.5);
+
+
+
+}
+
+ul {
+	margin-top: 50px;
+}
+
+ul li {
+
+	float:left;
+}
+
+ul li a i {
+	font-size:50px!important;
+}
+
+ul:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+.lista {
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding:10px;
+	margin-top: 25px;
+	
+}
+
+.proizvod {
+	width:30%;
+	border: 1px white solid;
+}
+
+.proizvod p {
+	color:white;
+	text-align: center;
+}
+
+.proizvod button {
+	display:block;
+	margin-bottom:40px; 
+
+}
